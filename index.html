@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC Tienda | Bienvenido</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>MC Tienda</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="jewelry.html?category=jewelry">Pulseras</a></li>
+                <li><a href="accessories.html?category=accessories">Accesorios</a></li>
+                <li><a href="gifts.html?category=gifts">Regalos</a></li>
+                <li><a href="checkout.html">Carrito <span id="cart-count">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Nuestros productos exclusivos</h2>
+                <p>Descubre la pieza ideal para ti o para esa persona especial. Diseños hermosos y artesanales a precios accesibles.</p>
+                <a href="jewelry.html?category=jewelry" class="btn-primary">Pulseras</a>
+                <a href="accessories.html?category=accessories" class="btn-primary">Accesorios</a>
+                <a href="gifts.html?category=gifts" class="btn-primary">Regalos</a>
+            </div>
+        </section>
+
+        <section id="products">
+            <h2>PRODUCTOS DESTACADOS</h2>
+            <div class="product-list" id="product-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mini Jewelry Store. All rights reserved.</p>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+    <script src="checkout.js"></script>
+</body>
+</html>
