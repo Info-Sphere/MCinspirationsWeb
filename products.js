@@ -10,14 +10,14 @@ window.products = {
         { name: "Amethyst Tiara", description: "Regal amethyst tiara.", price: 199.99, imageUrl: "pulsera8.jpg", featured: "no" }
     ],
     accessories: [
-        { name: "Accessory 1", description: "Description of Accessory 1", price: 25.00, imageUrl: "a1.jpg", featured: "yes" },
-        { name: "Accessory 2", description: "Description of Accessory 2", price: 30.00, imageUrl: "a2.jpg", featured: "no" },
-        { name: "Accessory 3", description: "Description of Accessory 3", price: 15.00, imageUrl: "a3.jpg", featured: "yes" },
-        { name: "Accessory 4", description: "Description of Accessory 4", price: 40.00, imageUrl: "a4.jpg", featured: "no" },
-        { name: "Accessory 5", description: "Description of Accessory 5", price: 20.00, imageUrl: "a5.jpg", featured: "yes" },
-        { name: "Accessory 6", description: "Description of Accessory 6", price: 35.00, imageUrl: "a6.jpg", featured: "no" },
-        { name: "Accessory 7", description: "Description of Accessory 7", price: 10.00, imageUrl: "a7.jpg", featured: "yes" },
-        { name: "Accessory 8", description: "Description of Accessory 8", price: 45.00, imageUrl: "a8.jpg", featured: "no" }
+        { name: "Accessory 1", description: "Description of Accessory 1", price: 25.00, imageUrl: "/a1.jpg", featured: "yes" },
+        { name: "Accessory 2", description: "Description of Accessory 2", price: 30.00, imageUrl: "/a2.jpg", featured: "no" },
+        { name: "Accessory 3", description: "Description of Accessory 3", price: 15.00, imageUrl: "/a3.jpg", featured: "yes" },
+        { name: "Accessory 4", description: "Description of Accessory 4", price: 40.00, imageUrl: "/a4.jpg", featured: "no" },
+        { name: "Accessory 5", description: "Description of Accessory 5", price: 20.00, imageUrl: "/a5.jpg", featured: "yes" },
+        { name: "Accessory 6", description: "Description of Accessory 6", price: 35.00, imageUrl: "/a6.jpg", featured: "no" },
+        { name: "Accessory 7", description: "Description of Accessory 7", price: 10.00, imageUrl: "/a7.jpg", featured: "yes" },
+        { name: "Accessory 8", description: "Description of Accessory 8", price: 45.00, imageUrl: "/a8.jpg", featured: "no" }
     ],
     gifts: [
         { name: "Gift 1", description: "Description of Gift 1", price: 50.00, imageUrl: "r1.jpg", featured: "yes" },
