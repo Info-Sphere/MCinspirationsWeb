@@ -1,5 +1,6 @@
 /* Color Variables - Refined Palette */
 :root {
+    --circlemark-color: #b0c5e0/*circle mark color*/;
     --primary-color: #D4AF37; /* Gold Accent */
     --secondary-color: #A9A9A9; /* Dark Gray */
     --success-color: #4CAF50; /* Green */
@@ -30,7 +31,7 @@ body {
 header h1{
     font-family: cursive;
     .circle-mark {
-        background-color: #b0c5e0; /* Highlight color */
+        background-color: var(--circlemark-color); /* Highlight color */
         color: #000;               /* Text color */
         border-radius: 50%;        /* Makes it a circle */
         padding: 5px 10px;         /* Adjust padding for shape */
