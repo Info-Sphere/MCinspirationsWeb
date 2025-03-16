@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | Mini Jewelry Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("YOUR_PUBLIC_KEY_HERE");  <!-- Replace with your EmailJS Public Key -->
+        })();
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1><mark class="circle-mark">MC</mark> Inspirations</h1>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <nav>
+                <a href="index.html" class="active">Inicio</a>
+                <a href="jewelry.html?category=jewelry">Pulseras</a></li>
+                <a href="accessories.html?category=accessories">Pendientes y Collares</a>
+                <a href="gifts.html?category=gifts">Bolsos</a>
+                <a href="checkout.html">Carrito <span id="cart-count">0</span></a>
+                <a href="contactame.html">Contactame</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+        </nav>
+    </div>
+        
+    </header>
+
+    <main>
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <div id="cart-total">
+            <p>Total: $<span id="cart-total-price">0.00</span></p>
+            <button id="pedido-button" class="pedido-button">Pedido</button> <!-- "Pedido" button with class -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mc Tienda. All rights reserved</p>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+    <script src="checkout.js"></script>
+    <script src="toggleMenu.js"></script>
+</body>
+
+</html>

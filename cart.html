@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito| MC tienda</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <h1>Mini Jewelry Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="jewelry.html">Pulseras</a></li>
+                <li><a href="accessories.html">Pendientes y Collares</a></li>
+                <li><a href="gifts.html">Bolsos</a></li>
+                <li><a href="checkout.html">Cart <span id="cart-count">0</span></a></li>
+                <li><a href="contactame.html">Contactame</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <div id="cart-total">
+            <p>Total: $<span id="cart-total-price">0.00</span></p>
+            <button id="checkout-button">Proceed to Checkout</button>
+        </div>
+    </main>
+
+    <script src="checkout.js"></script>
+    <script src="toggleMenu.js"></script>
+</body>
+</html>

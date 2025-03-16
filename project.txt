@@ -1,0 +1,23 @@
+instructions
+I am sharing 9 files with you count them and
+ let me know when you have them all and listed them.
+1.Do not change anything unless explicitly asked.
+2. Provide full updated version of any file changed.
+3.
+
+the product cards in each page should appear 
+in a responsive nice grid.
+
+still showing only 4 cards 
+in index.html under featured products
+
+whenever you need to double-check anything ask for
+the file and i will provide it so that you checkit
+
+
+next steps
+
+find out cart responsiveness to clone into rebecca's web
+
+index.html
+cart link functlioanlity

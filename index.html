@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC Tienda | Bienvenido</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1><mark class="circle-mark">MC</mark> Inspirations</h1>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <nav>
+                <a href="index.html" class="active">Inicio</a>
+                <a href="jewelry.html?category=jewelry">Pulseras</a></li>
+                <a href="accessories.html?category=accessories">Pendientes y Collares</a>
+                <a href="gifts.html?category=gifts">Bolsos</a>
+                <a href="checkout.html">Carrito <span id="cart-count">0</span></a>
+                <a href="contactame.html">Contactame</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+        </nav>
+    </div>
+        
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Nuestros productos exclusivos</h2>
+                <p>Descubre la pieza ideal para ti o para esa persona especial. Diseños hermosos y artesanales a precios accesibles.</p>
+                <!--<a href="jewelry.html?category=jewelry" class="btn-primary">Pulseras</a>
+                <a href="accessories.html?category=accessories" class="btn-primary">Accesorios</a>
+                <a href="gifts.html?category=gifts" class="btn-primary">Regalos</a>-->
+            </div>
+        </section>
+
+        <section id="products">
+            <h2>PRODUCTOS DESTACADOS</h2>
+            <div class="product-list" id="product-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mc Tienda. All rights reserved</p>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+    <script src="checkout.js"></script>
+    <script src="toggleMenu.js"></script>
+</body>
+</html>
